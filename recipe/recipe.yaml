@@ -13,7 +13,7 @@ source:
     sha256: 1ebb01ab14e98afd1727f68f64981c37bd23305b1f131f5667c02b94cf593192
 
 build:
-  number: 0
+  number: 1
   skip: not linux
 
 requirements:
@@ -30,6 +30,7 @@ requirements:
     - wayland >=1.10.0
     - wayland-protocols >=1.16.0
     - gtk4 >=4.20.3
+    - freetype
     - zlib
     - expat
     - glib
